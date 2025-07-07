@@ -1,0 +1,58 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared styles */
+.text-primary{
+    color: #fd6e0a;
+}
+.btn-primary{
+    background-color: #fd6e0a;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav title{
+    font-weight: 800;
+    font-size: 45px;
+}
+ nav ul li{
+    list-style: none;
+ }
+ nav li a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 50px;
+ }
+ .dark-2{
+    color: #474747;
+ }
+ nav ul{
+display: flex;
+align-items: center;
+
+ }
+ .bannar-greetings{
+    font-size: 45px;
+    font-weight: 60px;
+ }
+ .bannar-title{
+    font-size: 85px;
+    font-weight: bold;
+ }
