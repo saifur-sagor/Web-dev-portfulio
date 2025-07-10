@@ -132,12 +132,39 @@ header{
     gap: 25px 0 0 80px;
 }
 thead{
-    margin: 10px solid red;
-    background-color: #FFC239;
+    background-color: #C6E4D6;
+    height: 40px;
 }
 
 .table-section{
+    padding:20px
     width: 1200px;
-    margin: 10px solid red;
     background-color: aliceblue;
+}
+.news-section{
+    width: 1150px;
+    height: 400px;
+    background-color: #F7EBCF;
+    margin: 0 auto;
+    gap: 48px;
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+/* .news-section img{
+    width: 400px;
+    height: 300px;
+} */
+.colum{
+    text-align: center;
+    width: 700px;
+    height: 300px;
+}
+.donate{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
 }
